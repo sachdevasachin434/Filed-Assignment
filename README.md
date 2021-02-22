@@ -32,7 +32,7 @@ audioFileMetaData(Text) and audioFile(File).
 3. audioFile accepts any audio file from disk storage.
 
 ### Sample Create Input
-![create_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_create_input.png?raw==True)
+![create_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_create_input.PNG?raw==True)
 ### Output
 1. Returns {"result": f"Audio Inserted, File ID: {file_id}"} and status code as 200 if no validation error.
 2. Returns {"result": str(err)} and status code as 400 if any validation error is raised.
@@ -44,7 +44,7 @@ Accepts 2 path parameters named audioFileType and audioFileID.
 2. audioFileID that is returned by create API.
 
 ### Sample Delete Input
-![delete_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_delete_input.png?raw==True)
+![delete_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_delete_input.PNG?raw==True)
 ### Output
 1. Returns {"result": "Please pass audioFileType as song, podcast or audiobook."}
 and status code 400 if audioFileType is not valid.
@@ -58,7 +58,7 @@ Accepts 2 path parameters named audioFileType and audioFileID.
 1. audioFileType allows only (song, podcast, and audiobook) as its value.
 2. audioFileID for which update operation is required. The user can only pass those fields for which updation is required.
 ### Sample Update Input
-![update_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_update_input.png?raw==True)
+![update_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_update_input.PNG?raw==True)
 ### Output
 1. Returns {"result": "Please pass audioFileType as song, podcast or audiobook."}
 and status code 400 if audioFileType is not valid.
@@ -73,7 +73,7 @@ Accepts 2 path parameters named audioFileType and audioFileID.
 2. audioFileID for which audio file is required.
 
 ### Sample Get Input
-![get_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_get_input.png?raw==True)
+![get_sample_input](https://github.com/sachdevasachin434/Filed-Assignment/blob/main/Images/sample_get_input.PNG?raw==True)
 ### Output
 1. Returns {"result": "Please pass audioFileType as song, podcast or audiobook."}
 and status code 400 if audioFileType is not valid.
